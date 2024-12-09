@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home - Tilde Wolff</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="flex_between">
+      <div>
+        <a href="index.html"
+          ><img class="logo" src="assets/logo.webp" alt="Logo"
+        /></a>
+      </div>
+      <p>Kunst gennem mine øjne</p>
+      <nav>
+        <ul>
+          <li><a href="#">Menu</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+      <dotlottie-player
+        src="https://lottie.host/74602b9b-ce26-4bc2-a2f9-bb279f664f52/42JyV89AQv.lottie"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </section>
+
+    <main>
+      <section class="grid_1-1 section1">
+        <div>
+          <h1>Det, at male</h1>
+          <h2>"Jeg maler, fordi det giver mening - det gør mig glad."</h2>
+          <p>
+            Det føler Camilla Blauenfeldt, som her sidder i sit studio i
+            Hillerød, omringet af farvestrålende malerier og mere malergrej, end
+            man kan forestille sig. Hun har altid været kreativ og nydt
+            processen i at male, men det er kun efter at hendes børn er blevet
+            voksne, at hun har fået tid til at dykke ned i, hvad hun selv synes
+            om kunst. Ved at male verden gennem sine egne øjne, sætter hun nyt
+            perspektiv og nye farver på verdenen omkring sig.
+          </p>
+
+          <p>
+            Her, kan du se nogen af hendes værker, samt en et-minuts video
+            omkring Camilla - kunstnernavn Fru. B - og hendes passion for at
+            skabe.
+          </p>
+        </div>
+        <div class="grid_1">
+          <img
+            class="portrait"
+            src="assets/portrait.webp"
+            alt="Portrait of Camilla Blauenfeldt"
+          />
+          <p>"Fru. B" - Camilla Blauenfeldt</p>
+        </div>
+      </section>
+      <h2>Værker</h2>
+      <section class="grid_1-1-1 section2">
+        <img
+          class="span_1x2"
+          src="assets/painting_1.webp"
+          alt="Painting by Fru B"
+        />
+        <img
+          class="span_2x1"
+          src="assets/painting_4.webp"
+          alt="Painting by Fru B"
+        />
+        <img src="assets/painting_3.webp" alt="Painting by Fru B" />
+        <img src="assets/painting_2.webp" alt="Painting by Fru B" />
+      </section>
+      <h2>Interview</h2>
+      <section class="grid_1-1 section3">
+        <video width="560" height="315" controls>
+          <source
+            src="http://tildewolff.com/kea/05_indhold/passionsite/assets/B_Tilde_-_Kunst_gennem_mine_jne.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/uiE-4R6YLZ0?si=mc-ofWTzst_Y7dR8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer><p>&copy; Tilde Wolff, tildewolff.com, 2024</p></footer>
+  </body>
+</html>
